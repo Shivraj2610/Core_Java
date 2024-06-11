@@ -14,11 +14,7 @@ public class MaxNumberFromThreeNum {
             if (a > c) {
                 System.out.println(a + " is Msximum");
             } else {
-                if (c > b) {
-                    System.out.println(c + " is Maximum");
-                } else {
-                    System.out.println(b + " is Maximum");
-                }
+                System.out.println(c + " is Maximum");
             }
         } else {
             if (b > c) {
